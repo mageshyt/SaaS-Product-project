@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job finder</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Material ui -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <div class="logo__image">
+            <img src="./images/logo.jpg" alt="" />
+          </div>
+          <span>Clever Jobs</span>
+        </div>
+      </div>
+    </header>
+    <!-- Search -->
+    <div class="search">
+      <div class="search-container">
+        <div class="input-container">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            id="filter-job"
+            name="filter job"
+            placeholder="Filter by Job"
+          />
+        </div>
+        <div class="button-container">
+          <span>Find job</span>
+        </div>
+      </div>
+    </div>
+    <!-- job-list -->
+    <div class="job-list">
+      <h1>Showing 15 Jobs</h1>
+      <!-- job Container -->
+      <div class="jobs-container">
+        <div class="job-tile">
+          <div class="top">
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/facebook-logo-2019-1597680-1350125.png"
+              alt=""
+            />
+            <span class="material-icons more_horiz">more_horiz</span>
+          </div>
+          <div class="rolename">
+            <span>Lead Teach Lead</span>
+          </div>
+          <div class="description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            quisquam numquam quidem commodi qui natus sint magni in aliquam,
+          </div>
+          <!-- Button -->
+          <div class="buttons">
+            <div class="button btn-apply">Apply now</div>
+            <div class="button btn-message">message</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
